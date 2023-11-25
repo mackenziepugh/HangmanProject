@@ -7,7 +7,7 @@
 #include "Hangman_Drawing.hpp"
 #include "End.h"
 
-void user_guess_letter(string rand_word)
+void player_guess_letter(string rand_word)
 {
     // initializing variables and construct
     string used_letters;
@@ -43,11 +43,11 @@ void user_guess_letter(string rand_word)
                 cin >> final_guess;
                 
                 // checks validity
-                string choice = validateInput.only_one_or_two(final_guess); 
+                string choice = validateInput.Validate_one_or_two(final_guess); 
                 
                 if (choice == yes)
                 {
-                    user_guess_word(wrong_guesses, rand_word);
+                    player_guess_word(wrong_guesses, rand_word);
                     break;
                 }
             }
@@ -58,18 +58,18 @@ void user_guess_letter(string rand_word)
                 cin >> final_guess;
                 
                 // checks validity
-                string choice = validateInput.only_one_or_two(final_guess); 
+                string choice = validateInput.Validate_one_or_two(final_guess); 
                 
                 if (choice == yes)
                 {
-                    user_guess_word(wrong_guesses, rand_word);
+                    player_guess_word(wrong_guesses, rand_word);
                     break;
                 }
             }
         }
         
         // calling function to allow code to only take in 1 character that hasn't been previously used
-        letter = validateInput.only_one_letter(used_letters); 
+        letter = validateInput.Validate_one_letter(used_letters); 
 
         // adds letter inputted by user into user_letters string
         used_letters += letter; 

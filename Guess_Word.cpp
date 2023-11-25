@@ -1,15 +1,14 @@
 //  Guess_Word.cpp
 //  Hangman
 
-
 #include "Guess_Word.h"
 
 using namespace std;
 
-void user_guess_word(int wrong_guesses, string rand_word)
+void player_guess_word(int wrong_guesses, string rand_word)
 {
     string guess;
-    cout << "Type your final guess of the word here: ";
+    cout << "Type your final guess of the word here (all lowercase): ";
     cin >> guess;
     cout << endl;
     

@@ -1,7 +1,6 @@
 //  End.cpp
 //  Hangman
 
-
 #include "End.h"
 
 using namespace std;

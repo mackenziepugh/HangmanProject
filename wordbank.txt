@@ -2815,7 +2815,7 @@ uniform
 union
 unique
 unit
-United
+united
 universal
 universe
 university

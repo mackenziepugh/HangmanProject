@@ -1,7 +1,6 @@
 //  Option.h
 //  Hangman
 
-
 #pragma once
 
 #include <iostream>
@@ -11,4 +10,4 @@
 #include "ValidateInput.h"
 
 
-void user_options(string rand_word);
+void player_options(string rand_word);

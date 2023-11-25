@@ -1,7 +1,6 @@
 //  End.h
 //  Hangman
 
-
 #include "Hangman_Drawing.hpp"
 #include <string>
 #include <iostream>

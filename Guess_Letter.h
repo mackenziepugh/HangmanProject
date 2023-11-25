@@ -1,7 +1,6 @@
 //  Guess_Letter.h
 //  Hangman
 
-
 #include <iostream>
 #include <string>
 #include <algorithm>
@@ -9,4 +8,4 @@
 
 using namespace std;
 
-void user_guess_letter(string rand_word);
+void player_guess_letter(string rand_word);

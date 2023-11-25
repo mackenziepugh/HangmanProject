@@ -1,7 +1,6 @@
 //  ValidateInput.h
 //  Hangman
 
-
 #pragma once
 
 #include <limits>
@@ -14,6 +13,6 @@ class ValidateInput
 {
 public:
     ValidateInput ();
-    char only_one_letter(string used_letters);
-    string only_one_or_two(string user_input);
+    char Validate_one_letter(string used_letters);
+    string Validate_one_or_two(string player_input);
 };

@@ -1,7 +1,6 @@
 //  Guess_Word.h
 //  Hangman
 
-
 #pragma once
 
 #include <iostream>
@@ -10,4 +9,4 @@
 
 using namespace std;
 
-void user_guess_word(int wrong_guesses, string rand_word);
+void player_guess_word(int wrong_guesses, string rand_word);

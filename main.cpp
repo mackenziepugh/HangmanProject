@@ -58,10 +58,10 @@ int main()
     cout << "Once the body is completely hung , it's game over." << endl << endl;
     
     // calls function txt file to open and choose word
-    string secret_word = open_file(); 
+    string word = open_file(); 
    
     cout << "The word is ";
-    int length = secret_word.length();
+    int length = word.length();
     int i = 0;
     while (i < length)
     {
@@ -70,7 +70,7 @@ int main()
     }
     cout << " and has " << length << " letters." << endl;
     
-    user_options(secret_word); // calls to function in Option.h
+    player_options(word); // calls to function in Option.h
 
 
     cout << "Thanks for playing Hangman!! Press any key to exit." << endl;

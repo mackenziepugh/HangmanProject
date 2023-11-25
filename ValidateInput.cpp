@@ -1,12 +1,11 @@
 //  ValidateInput.cpp
 //  Hangman
 
-
 #include "ValidateInput.h"
 
 ValidateInput::ValidateInput () {}
 
-char ValidateInput::only_one_letter (string used_letters)
+char ValidateInput::Validate_one_letter (string used_letters)
 {
     char letter;
     string input;
@@ -22,7 +21,7 @@ char ValidateInput::only_one_letter (string used_letters)
         cout << "You already guessed that letter." << endl;
         cout << "Please enter a different letter: " << endl;
         cin >> input;
-        
+
         // only allows one character input
         letter = input[0];
     }
@@ -30,7 +29,7 @@ char ValidateInput::only_one_letter (string used_letters)
     return letter;
 }
 
-string ValidateInput::only_one_or_two (string user_input)
+string ValidateInput::Validate_one_or_two (string user_input)
 {
     string option_1 = "1";
     string option_2 = "2";
