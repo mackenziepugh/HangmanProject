@@ -1,7 +1,7 @@
 //  Hangman_Drawing.cpp
 //  Hangman
 
-#include "Hangman_Drawing.hpp"
+#include "Hangman_Drawing.h"
 
 using namespace std;
 

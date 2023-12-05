@@ -4,7 +4,7 @@
 
 #include "Guess_Letter.h"
 #include "ValidateInput.h"
-#include "Hangman_Drawing.hpp"
+#include "Hangman_Drawing.h"
 #include "End.h"
 
 void player_guess_letter(string rand_word)

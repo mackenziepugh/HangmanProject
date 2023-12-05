@@ -16,7 +16,7 @@ void player_options(string word)
     
     //check validity of input
     ValidateInput validateInput; 
-    string option = validateInput.Validate_one_or_two(users_choice);
+    string option = validateInput.Validate_one_or_two(player_choice);
     
     if (option == guess_letter)
     {
